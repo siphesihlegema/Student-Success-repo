@@ -1,2 +1,28 @@
-# Student-Success-repo
-Entry for the Student Success Prediction Hackathon 2025. We use anonymised demographic, academic and application data to build fairness-aware models that predict an applicant’s progress score (1-5) through multi-stage selections in South Africa. This repo contains data prep, modelling, notebooks, evaluation code, and the final report.
+# 🧠 Student Success Prediction Hackathon (2025)
+
+Predict applicant progress (1‑5) in multi‑stage selection using fairness‑aware ML.  
+Repo contains data prep, modeling, evaluation code & report scaffold.
+
+## Structure
+```
+data/
+    raw/            # Original CSVs
+    processed/      # Cleaned/engineered
+notebooks/
+    01_EDA.ipynb
+    02_Baseline.ipynb
+    03_Tuning.ipynb
+    04_Fairness.ipynb
+src/
+    data_processing.py
+    train_model.py
+    predict.py
+    metrics.py
+submissions/
+    submission.csv
+reports/
+    figures/
+    Hackathon_Report.pdf
+configs/
+    params.yaml
+```

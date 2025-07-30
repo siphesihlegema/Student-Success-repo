@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints
+.DS_Store
+Thumbs.db
+data/processed/
+data/raw/
+submissions/*.csv
+.env
+.venv/
+venv/
+*.egg-info
